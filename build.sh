@@ -14,7 +14,7 @@ if [ ! $local = $remote ]; then
 	git pull
 	./gradlew clean
 	./gradlew build
-	java -jar ./build/libs/qna-deploy-test-1.0.0.jar & 2>&1 
+	java -jar ./build/libs/qna-deploy-test-1.0.0.jar &
 else
 	echo "No change has been made"
 fi 
