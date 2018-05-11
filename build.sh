@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -------------------------------------
+date
 echo 'Checking for updates in the repo...'
 
 cd /home/ubuntu/qna-deploy-test/
