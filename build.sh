@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo 'Checking for updates in the repo...'
 git fetch
 local=`git rev-parse krapeaj`
 remote=`git rev-parse origin/krapeaj`
